@@ -10,11 +10,28 @@
       height: 100vh;
       width: 100vw;
       margin: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      overflow: hidden;
+    }
+    div.container{
+      position:absolute;
+      z-index:999;
+      text-align:center;
+      vertical-align:middle;
+      background: rgba(0, 0, 0, 0.7);
+      color: white;
     }
   </style>
 </head>
 
 <body>
+  <div class="container">
+    The current universal constant is: SPACE.
+  </div>
 </body>
 
 </html>
